@@ -1,0 +1,70 @@
+.experience_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+.experience_container div{
+    /* background: var(--color-bg-varient); */
+    padding: 0.5rem  ;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}
+.experience_frontend{
+    background: var(--color-bg-varient);
+    
+}
+
+
+.experience_container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+
+.experience_container > div h3{
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--color-primery);
+}
+.experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    
+}
+.experience_details{
+    display: flex;
+    gap: 0.5rem  ;
+    
+}
+
+.experience_details-icon{
+margin-top: 15px;
+color: var(--color-primery);
+
+}
+
+
+@media screen and (max-width: 1024px ){
+.experience_container{
+    grid-template-columns: 1fr;
+}
+.experience_container >div{
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+}
+}
+
+@media screen and (max-width: 600px ){
+.experience_container{
+    gap: 1rem;
+}
+.experience_container>div{
+    width: 100%;
+    padding: 2rem 1rem;
+}
+}
