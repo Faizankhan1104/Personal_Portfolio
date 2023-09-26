@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d42c36c3.css",
+    "main.js": "/static/js/main.e6109420.js",
+    "static/media/me.png": "/static/media/me.425d28e32bda7378e6ee.png",
+    "static/media/me_about.png": "/static/media/me_about.d761a16011ccdd4d7889.png",
+    "static/media/Mohd_Faizan_Resume.pdf": "/static/media/Mohd_Faizan_Resume.5d0168a1d2a1f45e4017.pdf",
+    "index.html": "/index.html",
+    "main.d42c36c3.css.map": "/static/css/main.d42c36c3.css.map",
+    "main.e6109420.js.map": "/static/js/main.e6109420.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d42c36c3.css",
+    "static/js/main.e6109420.js"
+  ]
+}
